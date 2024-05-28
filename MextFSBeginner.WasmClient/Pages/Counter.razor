@@ -1,0 +1,22 @@
+﻿@page "/counter"
+@inject IToastService ToastService
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+
+        ToastService.ShowError("Sayi 1 artti.");
+
+        currentCount++;
+    }
+}
