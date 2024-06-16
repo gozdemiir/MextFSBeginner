@@ -9,7 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.WasmClient",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.Domain", "MextFSBeginner.Domain\MextFSBeginner.Domain.csproj", "{B1BAC45C-F235-4DDE-B318-2A90E8206B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MextFSBeginner.TheBasics", "MextFSBeginner.TheBasics\MextFSBeginner.TheBasics.csproj", "{D9D60324-F0D8-4753-A1F7-23E5C6857E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.TheBasics", "MextFSBeginner.TheBasics\MextFSBeginner.TheBasics.csproj", "{D9D60324-F0D8-4753-A1F7-23E5C6857E43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.Entities", "MextFSBeginner.Entities\MextFSBeginner.Entities.csproj", "{0CD76052-33B9-4CF1-860A-6EB21D7D1588}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.AccessControlApp", "AccessControlApp\MextFSBeginner.AccessControlApp.csproj", "{6CCCE4AA-BE33-4EB0-9DD6-821645F0A4A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.AccessControlApp2", "MextFSBeginner.AccessControlApp2\MextFSBeginner.AccessControlApp2.csproj", "{5C449403-165B-44AE-BC59-8C4319E61FA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.InheritanceExampleConsole", "MextFSBeginner.InheritanceExampleConsole\MextFSBeginner.InheritanceExampleConsole.csproj", "{2EEA7EDC-AA1A-46B3-8852-B28FDC401805}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MextFSBeginner.AbstractClasses", "MextFSBeginner.AbstractClasses\MextFSBeginner.AbstractClasses.csproj", "{0CFFC434-E378-49BF-82DF-78AB942B61EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MextFSBeginner.AbstractClassExamples", "MextFSBeginner.AbstractClassExamples\MextFSBeginner.AbstractClassExamples.csproj", "{65E9A7AC-80D0-4BB7-AAD4-AF37DA759367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +45,30 @@ Global
 		{D9D60324-F0D8-4753-A1F7-23E5C6857E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9D60324-F0D8-4753-A1F7-23E5C6857E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D60324-F0D8-4753-A1F7-23E5C6857E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD76052-33B9-4CF1-860A-6EB21D7D1588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD76052-33B9-4CF1-860A-6EB21D7D1588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD76052-33B9-4CF1-860A-6EB21D7D1588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD76052-33B9-4CF1-860A-6EB21D7D1588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCCE4AA-BE33-4EB0-9DD6-821645F0A4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCCE4AA-BE33-4EB0-9DD6-821645F0A4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCCE4AA-BE33-4EB0-9DD6-821645F0A4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCCE4AA-BE33-4EB0-9DD6-821645F0A4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C449403-165B-44AE-BC59-8C4319E61FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C449403-165B-44AE-BC59-8C4319E61FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C449403-165B-44AE-BC59-8C4319E61FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C449403-165B-44AE-BC59-8C4319E61FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEA7EDC-AA1A-46B3-8852-B28FDC401805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEA7EDC-AA1A-46B3-8852-B28FDC401805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEA7EDC-AA1A-46B3-8852-B28FDC401805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEA7EDC-AA1A-46B3-8852-B28FDC401805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFFC434-E378-49BF-82DF-78AB942B61EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFFC434-E378-49BF-82DF-78AB942B61EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFFC434-E378-49BF-82DF-78AB942B61EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFFC434-E378-49BF-82DF-78AB942B61EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E9A7AC-80D0-4BB7-AAD4-AF37DA759367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E9A7AC-80D0-4BB7-AAD4-AF37DA759367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E9A7AC-80D0-4BB7-AAD4-AF37DA759367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E9A7AC-80D0-4BB7-AAD4-AF37DA759367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
