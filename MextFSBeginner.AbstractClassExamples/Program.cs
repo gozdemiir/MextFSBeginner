@@ -2,8 +2,8 @@
 
 
 
-var dog = new Dog();
-dog.MakineSound();
+var dog = new Dog();  //Dog classından bir instance oluşturduk.
+dog.MakineSound();   //Dog class'ında override edilen MakineSound methodunu çağırdık.
 
 Console.WriteLine("\n-------------------------");
 
