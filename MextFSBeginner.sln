@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "beginner", "beginner", "{F9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteExamples", "SQLiteExamples\SQLiteExamples.csproj", "{5720A445-EF7E-46BB-9B81-31E878398B12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{E551AC46-C607-4644-9951-C7D732079F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{E551AC46-C607-4644-9951-C7D732079F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1.Client", "BlazorApp1.Client\BlazorApp1.Client.csproj", "{477A597C-BA88-48E4-82AC-69EB887E4453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1.Client", "BlazorApp1.Client\BlazorApp1.Client.csproj", "{477A597C-BA88-48E4-82AC-69EB887E4453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "databases", "databases", "{F13584BB-0CD1-4368-AAFB-E0876F40B2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceApp", "ECommerceApp\ECommerceApp.csproj", "{72896F20-59B0-4E4C-A336-AD0B7565D199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,10 @@ Global
 		{477A597C-BA88-48E4-82AC-69EB887E4453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477A597C-BA88-48E4-82AC-69EB887E4453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477A597C-BA88-48E4-82AC-69EB887E4453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72896F20-59B0-4E4C-A336-AD0B7565D199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72896F20-59B0-4E4C-A336-AD0B7565D199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72896F20-59B0-4E4C-A336-AD0B7565D199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72896F20-59B0-4E4C-A336-AD0B7565D199}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +116,7 @@ Global
 		{5720A445-EF7E-46BB-9B81-31E878398B12} = {F98994C0-1A91-4680-99F5-18F3E9833A49}
 		{E551AC46-C607-4644-9951-C7D732079F4E} = {F98994C0-1A91-4680-99F5-18F3E9833A49}
 		{477A597C-BA88-48E4-82AC-69EB887E4453} = {F98994C0-1A91-4680-99F5-18F3E9833A49}
+		{72896F20-59B0-4E4C-A336-AD0B7565D199} = {F13584BB-0CD1-4368-AAFB-E0876F40B2BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F0DB1AE-A78B-4F83-B0FD-6B88B6209442}
