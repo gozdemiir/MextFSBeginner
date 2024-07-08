@@ -24,8 +24,8 @@ namespace ECommerceApp.EntityFramework.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=ECommerceAppTunga;User Id=alper;Password=123alper123;");
-
+            optionsBuilder.UseNpgsql("Server=185.223.77.214;Port=5433;Database=ECommerceAppOzdemir;User Id=postgres;Password=TYuTkGlncrpMgCokpuibnodnEpNUATK2ACNfGDqwgWZRZBMJEx6KpklXY63YIYie;");
+           
             base.OnConfiguring(optionsBuilder);
         }
     }
